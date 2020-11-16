@@ -91,7 +91,7 @@
                   >
                     <p></p>
                   </td>
-                  <td>80</td>
+                  <td>75</td>
                   <td
                     id="7"
                     class="ans"
@@ -107,7 +107,7 @@
                   >
                     <p></p>
                   </td>
-                  <td>30</td>
+                  <td>25</td>
                   <td
                     id="9"
                     class="ans"
@@ -123,7 +123,7 @@
                   >
                     <p></p>
                   </td>
-                  <td>40</td>
+                  <td>45</td>
                   <td
                     id="11"
                     class="ans"
@@ -139,7 +139,7 @@
                   >
                     <p></p>
                   </td>
-                  <td>40</td>
+                  <td>50</td>
                   <td
                     id="13"
                     class="ans"
@@ -155,7 +155,7 @@
                   >
                     <p></p>
                   </td>
-                  <td>80</td>
+                  <td>85</td>
                   <td
                     id="15"
                     class="ans"
@@ -205,7 +205,7 @@
                   >
                     <p></p>
                   </th>
-                  <th>360</th>
+                  <th>370</th>
                   <th
                     id="21"
                     class="percent ans"

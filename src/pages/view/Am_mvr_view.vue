@@ -99,7 +99,7 @@
                   >
                     <p></p>
                   </td>
-                  </td>
+
                 </tr>
                 <tr>
                   <td>Staff Issues</td>
@@ -109,14 +109,12 @@
                   >
                     <p></p>
                   </td>
-                  </td>
-                  <td>20</td>
+                  <td>15</td>
                   <td
                     id="9"
                     class="ans"
                   >
                     <p></p>
-                  </td>
                   </td>
                 </tr>
                 <tr>
@@ -127,14 +125,12 @@
                   >
                     <p></p>
                   </td>
-                  </td>
-                  <td>35</td>
+                  <td>40</td>
                   <td
                     id="11"
                     class="ans"
                   >
                     <p></p>
-                  </td>
                   </td>
                 </tr>
                 <tr>
@@ -145,8 +141,7 @@
                   >
                     <p></p>
                   </td>
-                  </td>
-                  <td>35</td>
+                  <td>50</td>
                   <td
                     id="13"
                     class="ans"
@@ -162,7 +157,7 @@
                   >
                     <p></p>
                   </td>
-                  <td>60</td>
+                  <td>65</td>
                   <td
                     id="15"
                     class="ans"
@@ -178,7 +173,7 @@
                   >
                     <p></p>
                   </td>
-                  <td>65</td>
+                  <td>60</td>
                   <td
                     id="17"
                     class="ans"
@@ -197,7 +192,7 @@
                   >
                     <p></p>
                   </th>
-                  <th>250</th>
+                  <th>265</th>
                   <th
                     id="19"
                     class="percent ans"
