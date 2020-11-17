@@ -402,7 +402,7 @@ export default {
       this.$socket
         .makeGetRequest(recent)
         .then(response => {
-          console.log(response)
+          // console.log(response)
           if (response.type == "middaymvrview") {
             for (let i = 0; i <= 120; i++) {
               response.data.forEach(item => {
