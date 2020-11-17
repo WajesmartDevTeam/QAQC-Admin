@@ -86,14 +86,14 @@
                 <tr>
                   <td>Service</td>
                   <td
-                    id="6"
+                    id="96"
                     class="ans"
                   >
                     <p></p>
                   </td>
                   <td>75</td>
                   <td
-                    id="7"
+                    id="97"
                     class="ans"
                   >
                     <p></p>
@@ -102,14 +102,14 @@
                 <tr>
                   <td>Hosting</td>
                   <td
-                    id="8"
+                    id="98"
                     class="ans"
                   >
                     <p></p>
                   </td>
                   <td>25</td>
                   <td
-                    id="9"
+                    id="99"
                     class="ans"
                   >
                     <p></p>
@@ -118,14 +118,14 @@
                 <tr>
                   <td>Production Management</td>
                   <td
-                    id="10"
+                    id="100"
                     class="ans"
                   >
                     <p></p>
                   </td>
                   <td>45</td>
                   <td
-                    id="11"
+                    id="101"
                     class="ans"
                   >
                     <p></p>
@@ -134,14 +134,14 @@
                 <tr>
                   <td>HACCP Compliance</td>
                   <td
-                    id="12"
+                    id="102"
                     class="ans"
                   >
                     <p></p>
                   </td>
                   <td>50</td>
                   <td
-                    id="13"
+                    id="103"
                     class="ans"
                   >
                     <p></p>
@@ -150,14 +150,14 @@
                 <tr>
                   <td>Hygiene & Cleanliness</td>
                   <td
-                    id="14"
+                    id="104"
                     class="ans"
                   >
                     <p></p>
                   </td>
                   <td>85</td>
                   <td
-                    id="15"
+                    id="105"
                     class="ans"
                   >
                     <p></p>
@@ -166,14 +166,14 @@
                 <tr>
                   <td>General Operations Management</td>
                   <td
-                    id="16"
+                    id="106"
                     class="ans"
                   >
                     <p></p>
                   </td>
                   <td>50</td>
                   <td
-                    id="17"
+                    id="107"
                     class="ans"
                   >
                     <p></p>
@@ -182,14 +182,14 @@
                 <tr>
                   <td>Shift Changeover</td>
                   <td
-                    id="18"
+                    id="108"
                     class="ans"
                   >
                     <p></p>
                   </td>
                   <td>40</td>
                   <td
-                    id="19"
+                    id="109"
                     class="ans"
                   >
                     <p></p>
@@ -200,14 +200,14 @@
                 <tr>
                   <th>TOTALS</th>
                   <th
-                    id="20"
+                    id="110"
                     class="points ans"
                   >
                     <p></p>
                   </th>
                   <th>370</th>
                   <th
-                    id="21"
+                    id="111"
                     class="percent ans"
                   >
                     <p></p>
@@ -225,7 +225,7 @@
                 restaurant did very
                 well:</label>
               <div
-                id="22"
+                id="78"
                 class="ans"
               >
                 <p class="form-box"></p>
@@ -339,7 +339,7 @@
               >Food & Beverage Comments &
                 Observations: </label>
               <div
-                id="23"
+                id="79"
                 class="ans"
               >
                 <p class="form-box"></p>
@@ -352,7 +352,7 @@
               >General Comments &
                 Observations:</label>
               <div
-                id="24"
+                id="80"
                 class="ans"
               >
                 <p class="form-box"></p>
@@ -402,9 +402,9 @@ export default {
       this.$socket
         .makeGetRequest(recent)
         .then(response => {
-          // console.log(response)
+          console.log(response)
           if (response.type == "middaymvrview") {
-            for (let i = 0; i <= 24; i++) {
+            for (let i = 0; i <= 120; i++) {
               response.data.forEach(item => {
                 if (i == item.questionno) {
                   // console.log(item.questiontext)
