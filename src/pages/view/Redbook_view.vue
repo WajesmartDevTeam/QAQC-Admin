@@ -1397,7 +1397,7 @@ export default {
               response.data.forEach(item => {
                if (i == item.questionno) {
                     // console.log(item.questiontext)
-                     if (item.questiontext == "Location Visited Location Visited") {
+                    if (item.questionno == "2") {
                     let stores = this.$store.getters.stores
                     stores.forEach(j => {
                       if (j.id == item.answers) {

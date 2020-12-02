@@ -3282,7 +3282,7 @@ export default {
                 if (i == item.questionno) {
                   // console.log(item);
                   // console.log(item.questiontext)
-                  if (item.questiontext == "Shop Name Shop") {
+                  if (item.questionno == "2") {
                     let stores = this.$store.getters.stores
                     stores.forEach(j => {
                       if (j.id == item.answers) {

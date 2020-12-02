@@ -308,13 +308,14 @@ export default {
             for (let i = 0; i <= 100; i++) {
               response.data.forEach(item => {
                 if (i == item.questionno) {
-                  // console.log(item.questiontext)
-                  if (item.questiontext == "Restaurant/Location Restaurant/Location") {
+                  // console.log(item)
+                  if (item.questionno == "3") {
+                    // console.log(item.answers)
                     let stores = this.$store.getters.stores
                     stores.forEach(j => {
                       if (j.id == item.answers) {
                         item.answers = j.address + ", " + j.location;
-                        // console.log(item.answers)
+
                       }
                     })
                   }
