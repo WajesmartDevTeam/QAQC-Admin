@@ -1,6 +1,12 @@
 <template>
   <div class="content">
     <div class="md-layout">
+      <div class="md-layout-item mb-2">
+        <button
+          class="btn btn-danger"
+          @click="$router.push('/admin/midamvfeedback')"
+        >Go back <span class="fa fa-times"></span></button>
+      </div>
       <div class="md-layout-item md-size-100">
         <div
           class="card"
@@ -383,7 +389,7 @@
 export default {
   data () {
     return {
-      images: {}
+      images: []
     };
   },
   mounted () {
@@ -402,7 +408,7 @@ export default {
       this.$socket
         .makeGetRequest(recent)
         .then(response => {
-          // console.log(response)
+
           if (response.type == "middaymvrview") {
             for (let i = 0; i <= 120; i++) {
               response.data.forEach(item => {
@@ -421,8 +427,8 @@ export default {
                 }
               });
             }
-
             this.images = response.images;
+            // this.images = Object.values(response.images);
           }
         })
         .catch(e => {

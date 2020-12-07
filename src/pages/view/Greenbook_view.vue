@@ -1,6 +1,12 @@
 <template>
   <div class="content">
     <div class="md-layout">
+         <div class="md-layout-item mb-2">
+        <button
+          class="btn btn-danger"
+          @click="$router.push('/admin/kdo')"
+        >Go back <span class="fa fa-times"></span></button>
+      </div>
       <div class="md-layout-item md-size-100">
         <div
           class="card"
