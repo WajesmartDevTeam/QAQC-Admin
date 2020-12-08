@@ -1591,7 +1591,7 @@
               <label
                 for="inputPassword"
                 class="col-xs-4 col-sm-4 col-form-label"
-              >Shift Manager(Morning) Name & Sign</label>
+              >A.M Shift Manager Name</label>
               <div
                 id="206"
                 class="col-xs-8 col-sm-8 ans"
@@ -1603,7 +1603,7 @@
               <label
                 for="inputPassword"
                 class="col-xs-4 col-sm-4 col-form-label"
-              >Shift Manager(Afternoon) Name & Sign</label>
+              >P.M Shift Manager Name</label>
               <div
                 id="207"
                 class="col-xs-8 col-sm-8 ans"
