@@ -122,6 +122,7 @@ export default {
       xmlHttp.send();
     },
     graphAPICallback (data) {
+      // console.log(data)
       let access = false;
       let role;
       data.value.forEach(i => {
