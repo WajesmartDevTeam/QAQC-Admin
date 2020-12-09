@@ -574,16 +574,8 @@
                   </td>
 
                 </tr>
-
-              </tbody>
-
-              <thead>
-                <th>KITCHEN(BOH, FRY STATION & PASTRY) </th>
-                <th colspan="3"></th>
-              </thead>
-              <tbody>
                 <tr>
-                  <td>Is the Gas Burners, pressure and deep/open fryers clean and free of build up?</td>
+                  <td>Is the counter tops/till machine clean?</td>
                   <td
                     id="71"
                     class="ans"
@@ -605,7 +597,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the Dough moxer clean and free of build up?</td>
+                  <td>Are all packaging materials well arranged and spoons/forks wrapped?</td>
                   <td
                     id="74"
                     class="ans"
@@ -627,7 +619,7 @@
 
                 </tr>
                 <tr>
-                  <td>Has the Oil checks been done using the Oil Tester?</td>
+                  <td>Is the Menu board clean and cobweb free?</td>
                   <td
                     id="77"
                     class="ans"
@@ -649,7 +641,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all production oven clean and free of grease build up?</td>
+                  <td>Are the FOH chiller working and attaining temperature between 1-4 degrees?</td>
                   <td
                     id="80"
                     class="ans"
@@ -672,7 +664,7 @@
                 </tr>
                 <tr>
 
-                  <td>Is the Extractor clean and free of Oil residue/build up?</td>
+                  <td>Has the Tables been buzzed after customer's meal?</td>
                   <td
                     id="83"
                     class="ans"
@@ -694,7 +686,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all induction burners clean free of moisture and oil build up?</td>
+                  <td>Is all cleaning materials and chemicals out of sight and safely stored away?</td>
                   <td
                     id="86"
                     class="ans"
@@ -716,7 +708,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is there a Sanitizer Solution available in the Kithcen?</td>
+                  <td>Is the Ice cream/cake Display clean and free of residue?</td>
                   <td
                     id="89"
                     class="ans"
@@ -738,7 +730,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the 3 bucket system in place and practiced?</td>
+                  <td>Is the cold slab clean and free of residue?</td>
                   <td
                     id="92"
                     class="ans"
@@ -760,7 +752,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the Cold room/freezers working and attaining temp between -10 to -23 degrees?</td>
+                  <td>Is the Coffee machine working and clean?</td>
                   <td
                     id="95"
                     class="ans"
@@ -782,7 +774,7 @@
 
                 </tr>
                 <tr>
-                  <td>Has the cold room/freezer been cleaned as per daily schedule?</td>
+                  <td>Is the Dough Pizza press clean and free of residue?</td>
                   <td
                     id="98"
                     class="ans"
@@ -804,7 +796,7 @@
 
                 </tr>
                 <tr>
-                  <td>Have all materials in the Cold room/freezer been Code Dated?</td>
+                  <td>Is the front hood extractor for Pizza clean and free of build up?</td>
                   <td
                     id="101"
                     class="ans"
@@ -826,7 +818,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all food grade containers/basket clean labelled or code dated?</td>
+                  <td>Are all Pizza baking tools and utensils cleaned/sanitized and neatly stored?</td>
                   <td
                     id="104"
                     class="ans"
@@ -848,7 +840,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the Kitchen floor swept and mopped as per the daily schedule?</td>
+                  <td>Are the Pizza Packaging boxes well arranged and free of dirt or potential hazard?</td>
                   <td
                     id="107"
                     class="ans"
@@ -869,8 +861,16 @@
                   </td>
 
                 </tr>
+              </tbody>
+
+              <thead>
+                <th>KITCHEN(BOH, FRYER STATION & PASTRY) </th>
+                <th colspan="3"></th>
+              </thead>
+              <tbody>
+
                 <tr>
-                  <td>Is the Kitchen floor drains cleaned and cleared of build ups?</td>
+                  <td>Is the Gas Burners, pressure and deep/open fryers clean and free of build up?</td>
                   <td
                     id="110"
                     class="ans"
@@ -892,7 +892,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all food items in the production floor placed on pallets? Elevated?</td>
+                  <td>s the Dough mixer clean and free of build up?</td>
                   <td
                     id="113"
                     class="ans"
@@ -914,7 +914,7 @@
 
                 </tr>
                 <tr>
-                  <td>Has the Kitchen wall Tiles been cleaned as per daily schedule?</td>
+                  <td>Has the Oil checks been done using the Oil Tester?</td>
                   <td
                     id="116"
                     class="ans"
@@ -936,7 +936,7 @@
 
                 </tr>
                 <tr>
-                  <td>Have all prepared food been sampled to check for quality, Taste and documented?</td>
+                  <td>Are all production oven clean and free of grease build up?</td>
                   <td
                     id="119"
                     class="ans"
@@ -958,7 +958,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all prepared products (RTE) being probed and recoeded real time?</td>
+                  <td>Is the Extractor clean and free of Oil residue/build up?</td>
                   <td
                     id="122"
                     class="ans"
@@ -980,7 +980,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all prepared products (RTE) being recorded in the movement book real time?</td>
+                  <td>Are all induction burners clean free of moisture and oil build up?</td>
                   <td
                     id="125"
                     class="ans"
@@ -1002,7 +1002,7 @@
 
                 </tr>
                 <tr>
-                  <td>Have all refuse BIN been emptoied timely? (half full half empty)</td>
+                  <td>Is there a Sanitizer Solution available in the Kithcen?</td>
                   <td
                     id="128"
                     class="ans"
@@ -1024,7 +1024,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the Pasturizer clean and free of residue?</td>
+                  <td>Is the 3 wash bucket system in place and practiced?</td>
                   <td
                     id="131"
                     class="ans"
@@ -1046,7 +1046,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the blast freezer clean and working optimally?</td>
+                  <td>Is the Cold room/freezers working and attaining temp between -10 to -23 degrees?</td>
                   <td
                     id="134"
                     class="ans"
@@ -1068,7 +1068,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all additional production equipment clean and working?</td>
+                  <td>Has the cold room/freezer been cleaned as per daily schedule?</td>
                   <td
                     id="137"
                     class="ans"
@@ -1090,7 +1090,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all cooking pots/pans in good condition and free from carbon build up?</td>
+                  <td>Have all materials in the Cold room/freezer been Code Dated?</td>
                   <td
                     id="140"
                     class="ans"
@@ -1112,7 +1112,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the Pizza oven clean, free of residue/build up?</td>
+                  <td>Are all food grade containers/basket clean labelled or code dated?</td>
                   <td
                     id="143"
                     class="ans"
@@ -1134,7 +1134,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are the chopping Boards clean amd free of build up?</td>
+                  <td>Is the Kitchen floor swept and mopped as per the daily schedule?</td>
                   <td
                     id="146"
                     class="ans"
@@ -1156,7 +1156,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all WIP items placed in the chiller code Dated?</td>
+                  <td>Is the Kitchen floor drains cleaned and cleared of build ups?</td>
                   <td
                     id="149"
                     class="ans"
@@ -1178,7 +1178,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the chiller working optimally and attaining a temp between 1-4 degrees celsius?</td>
+                  <td>Are all food items in the production floor placed on pallets? Elevated?</td>
                   <td
                     id="152"
                     class="ans"
@@ -1200,7 +1200,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the extractor clean and free of Build up?</td>
+                  <td>Is the extractor cleaHas the Kitchen wall Tiles been cleaned as per daily schedule?</td>
                   <td
                     id="155"
                     class="ans"
@@ -1221,16 +1221,8 @@
                   </td>
 
                 </tr>
-
-              </tbody>
-
-              <thead>
-                <th>ADDITIONAL CHECKS </th>
-                <th colspan="3"></th>
-              </thead>
-              <tbody>
                 <tr>
-                  <td>Is the Shawarma griller and Toaster clean and free of build up?</td>
+                  <td>Have all prepared food been sampled to check for quality, Taste and documented?</td>
                   <td
                     id="158"
                     class="ans"
@@ -1252,7 +1244,7 @@
 
                 </tr>
                 <tr>
-                  <td>Is the braine maire working and clean?</td>
+                  <td>Are all prepared products (RTE) being probed and recorded real time?</td>
                   <td
                     id="161"
                     class="ans"
@@ -1274,7 +1266,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all food items in the dry store placed on pallets?</td>
+                  <td>Are all prepared products (RTE) being recorded in the movement book real time?</td>
                   <td
                     id="164"
                     class="ans"
@@ -1288,7 +1280,7 @@
                     <p></p>
                   </td>
                   <td
-                    id="166"
+                    id="167"
                     class="ans"
                   >
                     <p></p>
@@ -1296,13 +1288,7 @@
 
                 </tr>
                 <tr>
-                  <td>Are all items in the Dry Store code Dated?</td>
-                  <td
-                    id="167"
-                    class="ans"
-                  >
-                    <p></p>
-                  </td>
+                  <td>Have all refuse BIN been emptoied timely? (half full half empty)</td>
                   <td
                     id="168"
                     class="ans"
@@ -1315,17 +1301,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-
-                  <td>Is CAYGO the order of the Day?</td>
                   <td
                     id="170"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Is the Pasturizer clean and free of residue?</td>
                   <td
                     id="171"
                     class="ans"
@@ -1338,16 +1323,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Has the staff cloakroom and Toilet been clean as per the daily schedule?</td>
                   <td
                     id="173"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Is the blast freezer clean and working optimally?</td>
                   <td
                     id="174"
                     class="ans"
@@ -1360,16 +1345,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Is the Handwashing Sink equipped with running water, Soap and Paper Towel?</td>
                   <td
                     id="176"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Are all additional production equipment clean and working?</td>
                   <td
                     id="177"
                     class="ans"
@@ -1382,16 +1367,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Are Staff washing their Hands intermittently?</td>
                   <td
                     id="179"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Are all cooking pots/pans in good condition and free from carbon build up?</td>
                   <td
                     id="180"
                     class="ans"
@@ -1404,16 +1389,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Has the Grease Fat Trap been cleaned?(must be cleaned twice daily)</td>
                   <td
                     id="182"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Is the Pizza oven clean, free of residue/build up?</td>
                   <td
                     id="183"
                     class="ans"
@@ -1426,16 +1411,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Is the back area cleaned, free of algae and unwanted items?</td>
                   <td
                     id="185"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Are the chopping Boards clean amd free of build up?</td>
                   <td
                     id="186"
                     class="ans"
@@ -1448,16 +1433,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Are all refuse being dumped neatly in the bin according to color code segregation?</td>
                   <td
                     id="188"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Are all WIP items placed in the chiller code Dated?</td>
                   <td
                     id="189"
                     class="ans"
@@ -1470,16 +1455,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Are all staff well groomed and dressed as per policy?</td>
                   <td
                     id="191"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Is the chiller working optimally and attaining a temp between 1-4 degrees celsius?</td>
                   <td
                     id="192"
                     class="ans"
@@ -1492,16 +1477,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Has the Morning/Afternoon stock count been carried out?</td>
                   <td
                     id="194"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Is the extractor clean and free of Build up?</td>
                   <td
                     id="195"
                     class="ans"
@@ -1514,16 +1499,23 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Is there any material unavailability affetcing the day's Sales?</td>
                   <td
                     id="197"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+              </tbody>
+
+              <thead>
+                <th>ADDITIONAL CHECKS </th>
+                <th colspan="3"></th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Is the Shawarma griller and Toaster clean and free of build up?</td>
                   <td
                     id="198"
                     class="ans"
@@ -1536,16 +1528,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Has the previous Day's controls been done?</td>
                   <td
                     id="200"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Is the braine maire working and clean?</td>
                   <td
                     id="201"
                     class="ans"
@@ -1558,16 +1550,16 @@
                   >
                     <p></p>
                   </td>
-
-                </tr>
-                <tr>
-                  <td>Has the Food cost report been done for the previous Day?</td>
                   <td
                     id="203"
                     class="ans"
                   >
                     <p></p>
                   </td>
+
+                </tr>
+                <tr>
+                  <td>Are all food items in the dry store placed on pallets?</td>
                   <td
                     id="204"
                     class="ans"
@@ -1576,6 +1568,299 @@
                   </td>
                   <td
                     id="205"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="206"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Are all items in the Dry Store code Dated?</td>
+                  <td
+                    id="207"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="208"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="209"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+
+                  <td>Is CAYGO the order of the Day?</td>
+                  <td
+                    id="210"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="211"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="212"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Has the staff cloakroom and Toilet been clean as per the daily schedule?</td>
+                  <td
+                    id="213"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="214"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="215"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Is the Handwashing Sink equipped with running water, Soap and Paper Towel?</td>
+                  <td
+                    id="216"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="217"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="218"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Are Staff washing their Hands intermittently?</td>
+                  <td
+                    id="219"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="220"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="221"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Has the Grease Fat Trap been cleaned?(must be cleaned twice daily)</td>
+                  <td
+                    id="222"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="223"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="224"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Is the back area cleaned, free of algae and unwanted items?</td>
+                  <td
+                    id="225"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="226"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="227"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Are all refuse being dumped neatly in the bin according to color code segregation?</td>
+                  <td
+                    id="228"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="229"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="230"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Are all staff well groomed and dressed as per policy?</td>
+                  <td
+                    id="231"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="232"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="233"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Has the Morning/Afternoon stock count been carried out?</td>
+                  <td
+                    id="234"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="235"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="236"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Is there any material unavailability affetcing the day's Sales?</td>
+                  <td
+                    id="237"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="238"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="239"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Has the previous Day's controls been done?</td>
+                  <td
+                    id="240"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="241"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="242"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>Has the Food cost report been done for the previous Day?</td>
+                  <td
+                    id="243"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="244"
+                    class="ans"
+                  >
+                    <p></p>
+                  </td>
+                  <td
+                    id="245"
                     class="ans"
                   >
                     <p></p>
@@ -1593,7 +1878,7 @@
                 class="col-xs-4 col-sm-4 col-form-label"
               >A.M Shift Manager Name</label>
               <div
-                id="206"
+                id="246"
                 class="col-xs-8 col-sm-8 ans"
               >
                 <p class="form-control"></p>
@@ -1605,7 +1890,7 @@
                 class="col-xs-4 col-sm-4 col-form-label"
               >P.M Shift Manager Name</label>
               <div
-                id="207"
+                id="247"
                 class="col-xs-8 col-sm-8 ans"
               >
                 <p class="form-control"></p>
