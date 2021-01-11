@@ -285,6 +285,7 @@ export default {
     var d = new Date(yyyy, mm, 0).getDate();
     this.selectedPeriod = yyyy + '-' + mm;
     this.filter = yyyy + '-' + mm + "-" + d;
+    console.log(this.filter)
 
   },
   mounted () {
@@ -319,6 +320,9 @@ export default {
           if (response.type == "ammvr") {
             if (response.data.Reports.length == 0) {
               this.no_form = true
+            }
+            else {
+              this.no_form = false
             }
             if (this.role == "storeManager") {
               this.forms = []
@@ -385,6 +389,7 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "amvrCompliance") {
+            // console.log(response)
             this.no_of_compliant = response.data.amvr.compliant
             this.no_of_uncompliant = response.data.amvr.non_compliant
             this.record_date = response.data.amvr.message
@@ -450,6 +455,9 @@ export default {
     selectedPeriod: function (val) {
       //do something when the data changes.
       if (val) {
+        this.filter = val + "-31";
+        // console.log(val)
+        // console.log(this.filter)
         this.forms = []
         this.stats();
       }

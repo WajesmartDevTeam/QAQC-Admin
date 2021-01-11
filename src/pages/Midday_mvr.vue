@@ -312,8 +312,12 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "middaymvr") {
+            console.log(response)
             if (response.data.Reports.length == 0) {
               this.no_form = true
+            }
+            else {
+              this.no_form = false
             }
             if (this.role == "storeManager") {
               this.forms = []
@@ -452,6 +456,7 @@ export default {
     selectedPeriod: function (val) {
       //do something when the data changes.
       if (val) {
+        this.filter = val + "-31";
         this.forms = []
         this.stats();
       }
@@ -462,7 +467,8 @@ export default {
         this.getCompliance();
       }
     }
-  }}
+  }
+}
 </script>
 <style>
 div.md-toolbar-row {

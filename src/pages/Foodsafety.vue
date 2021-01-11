@@ -14,7 +14,7 @@
       </div>
       <div class="md-layout-item md-size-50">
         <br>
-        <p style="float:right;font-weight:bold;">{{record_date}}</p>
+        <!-- <p style="float:right;font-weight:bold;">{{record_date}}</p> -->
       </div>
       <div
         v-if="role ==='superAdmin'"
@@ -244,6 +244,7 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "foodsafetyCompliance") {
+            console.log(response)
             this.no_of_compliant = response.data.compliant
             this.no_of_uncompliant = response.data.non_compliant
             this.record_date = response.data.message
@@ -273,6 +274,9 @@ export default {
           if (response.type == "foodsafety") {
             if (response.data.Reports.length == 0) {
               this.no_form = true
+            }
+            else {
+              this.no_form = false
             }
             if (this.role == "storeManager") {
               this.forms = []
@@ -351,6 +355,7 @@ export default {
     selectedPeriod: function (val) {
       //do something when the data changes.
       if (val) {
+        this.filter = val + "-31";
         this.forms = []
         this.stats();
       }

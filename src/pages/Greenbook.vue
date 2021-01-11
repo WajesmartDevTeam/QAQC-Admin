@@ -276,6 +276,8 @@ export default {
           if (response.type == "greenbook") {
             if (response.data.Reports.length == 0) {
               this.no_form = true
+            } else {
+              this.no_form = false
             }
             if (this.role == "storeManager") {
 

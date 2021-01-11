@@ -82,7 +82,7 @@ export default {
         //     "color:#00ff00;font-size:14px;background:#000;",
         //     "color:#ff0000;font-size:14px;background:#000;"
         // );
-
+        console.log(request_url)
         return new Promise((resolve, reject) => {
             axios
                 .get(request_url)

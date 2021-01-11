@@ -267,6 +267,8 @@ export default {
           if (response.type == "redbook") {
             if (response.data.Reports.length == 0) {
               this.no_form = true
+            } else {
+              this.no_form = false
             }
             if (this.role == "storeManager") {
               this.forms = []
@@ -336,6 +338,7 @@ export default {
     selectedPeriod: function (val) {
       //do something when the data changes.
       if (val) {
+
         this.forms = []
         this.stats();
       }
