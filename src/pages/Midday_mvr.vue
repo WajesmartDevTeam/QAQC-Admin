@@ -287,8 +287,8 @@ export default {
     }
     var d = new Date(yyyy, mm, 0).getDate();
     this.selectedPeriod = yyyy + '-' + mm;
-    this.filter = yyyy + '-' + mm + "-" + d;
-    this.stats();
+    // this.filter = yyyy + '-' + mm + "-" + d;
+    // this.stats();
     let stores = this.$store.getters.stores
     stores.forEach(j => {
       if (j.id == this.storeId) {
@@ -456,7 +456,7 @@ export default {
     selectedPeriod: function (val) {
       //do something when the data changes.
       if (val) {
-        this.filter = val + "-31";
+        this.filter = val.split("-")[1] == '02' ? val + "-28" : val + "-30"
         this.forms = []
         this.stats();
       }

@@ -174,7 +174,7 @@ export default {
           width: "300px",
           allowOutsideClick: false
         })
-        this.$signOut()
+        this.signOut()
 
       }
 

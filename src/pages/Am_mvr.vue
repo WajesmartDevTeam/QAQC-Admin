@@ -284,17 +284,14 @@ export default {
     }
     var d = new Date(yyyy, mm, 0).getDate();
     this.selectedPeriod = yyyy + '-' + mm;
-    this.filter = yyyy + '-' + mm + "-" + d;
-    console.log(this.filter)
-
+    // this.filter = yyyy + '-' + mm + "-" + d;
+    // this.stats();
   },
   mounted () {
     this.role = this.$store.getters.role;
     if (this.role === "storeManager") {
       this.storeId = this.$store.getters.user_data.id;
     }
-
-    this.stats();
     let stores = this.$store.getters.stores
     stores.forEach(j => {
 
@@ -302,6 +299,7 @@ export default {
         this.storeName = j.address;
       }
     })
+
   },
   methods: {
     getReport () {
@@ -389,7 +387,7 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "amvrCompliance") {
-            // console.log(response)
+            console.log(response)
             this.no_of_compliant = response.data.amvr.compliant
             this.no_of_uncompliant = response.data.amvr.non_compliant
             this.record_date = response.data.amvr.message
@@ -455,9 +453,7 @@ export default {
     selectedPeriod: function (val) {
       //do something when the data changes.
       if (val) {
-        this.filter = val + "-31";
-        // console.log(val)
-        // console.log(this.filter)
+        this.filter = val.split("-")[1] == '02' ? val + "-28" : val + "-30"
         this.forms = []
         this.stats();
       }

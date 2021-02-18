@@ -264,14 +264,14 @@
               </div>
             </div>
           </div>
-          <div class="row ">
+          <div class="row card-content">
             <div
               v-for="(img, index) in images"
               v-bind:key="index"
-              class="col-4 h-25"
+              class="col-4 h-25 mt-2"
             >
               <img
-                :src="'http://qa.sundryhrms.website'+img"
+                :src="img.answers"
                 class="img-fluid"
                 style="height: 200px;"
               >
@@ -288,7 +288,6 @@
 export default {
   data () {
     return {
-
       images: []
     };
   },
@@ -309,30 +308,25 @@ export default {
       this.$socket
         .makeGetRequest(recent)
         .then(response => {
-          if (response.type == "ammvrview") {
-            // console.log(response)
+          response.data.forEach(item => {
             for (let i = 0; i <= 100; i++) {
-              response.data.forEach(item => {
-                if (i == item.questionno) {
-                  // console.log(item)
-                  if (item.questionno == "3") {
-                    // console.log(item.answers)
-                    let stores = this.$store.getters.stores
-                    stores.forEach(j => {
-                      if (j.id == item.answers) {
-                        item.answers = j.address + ", " + j.location;
-
-                      }
-                    })
-                  }
-                  document.getElementById(i).querySelectorAll("p")[0].innerHTML = item.answers
-
+              if (i == item.questionno) {
+                if (item.questionno == "3") {
+                  let stores = this.$store.getters.stores
+                  stores.forEach(j => {
+                    if (j.id == item.answers) {
+                      item.answers = j.address + ", " + j.location;
+                    }
+                  })
                 }
-              });
+                document.getElementById(i).querySelectorAll("p")[0].innerHTML = item.answers;
+              }
+
+            };
+            if (item.questionno.includes('image')) {
+              this.images.push(item)
             }
-            this.images = response.images;
-            // this.images = Object.values(response.images);
-          }
+          })
         })
         .catch(e => {
           console.log(e);

@@ -206,7 +206,7 @@ export default {
 
     var d = new Date(yyyy, mm, 0).getDate();
     this.selectedPeriod = yyyy + '-' + mm;
-    this.filter = yyyy + '-' + mm + "-" + d;
+    // this.filter = yyyy + '-' + mm + "-" + d;
   },
   mounted () {
     this.role = this.$store.getters.role;
@@ -214,7 +214,7 @@ export default {
       this.storeId = this.$store.getters.user_data.id;
     }
 
-    this.stats();
+    // this.stats();
     let stores = this.$store.getters.stores
     stores.forEach(j => {
       if (j.id == this.storeId) {
@@ -244,7 +244,7 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "foodsafetyCompliance") {
-            console.log(response)
+            // console.log(response)
             this.no_of_compliant = response.data.compliant
             this.no_of_uncompliant = response.data.non_compliant
             this.record_date = response.data.message
@@ -355,7 +355,7 @@ export default {
     selectedPeriod: function (val) {
       //do something when the data changes.
       if (val) {
-        this.filter = val + "-31";
+        this.filter = val.split("-")[1] == '02' ? val + "-28" : val + "-30"
         this.forms = []
         this.stats();
       }

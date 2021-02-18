@@ -219,7 +219,7 @@ export default {
       this.storeId = this.$store.getters.user_data.id;
     }
 
-    this.stats();
+    // this.stats();
 
 
 

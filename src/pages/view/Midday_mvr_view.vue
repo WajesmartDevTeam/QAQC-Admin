@@ -371,10 +371,10 @@
           <div
             v-for="(img, index) in images"
             v-bind:key="index"
-            class="col-4 h-25"
+            class="col-4 h-25 mt-2"
           >
             <img
-              :src="'http://qa.sundryhrms.website'+img"
+              :src="img.answers"
               class="img-fluid"
               style="height: 200px;"
             >
@@ -410,8 +410,8 @@ export default {
         .then(response => {
 
           if (response.type == "middaymvrview") {
-            for (let i = 0; i <= 120; i++) {
-              response.data.forEach(item => {
+            response.data.forEach(item => {
+              for (let i = 0; i <= 120; i++) {
                 if (i == item.questionno) {
                   // console.log(item.questiontext)
                   if (item.questionno == "3") {
@@ -419,16 +419,18 @@ export default {
                     stores.forEach(j => {
                       if (j.id == item.answers) {
                         item.answers = j.address + ", " + j.location;
-                        // console.log(item.answers)
+
                       }
                     })
                   }
                   document.getElementById(i).querySelectorAll("p")[0].innerHTML = item.answers
                 }
-              });
-            }
-            this.images = response.images;
-            // this.images = Object.values(response.images);
+
+              };
+              if (item.questionno.includes('image')) {
+                this.images.push(item)
+              }
+            })
           }
         })
         .catch(e => {
