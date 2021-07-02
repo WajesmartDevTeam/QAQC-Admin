@@ -12,7 +12,12 @@ export default new Vuex.Store({
         logOut: false,
         role: "",
         stores: [],
-        store_reports: {}
+        store_reports: {},
+        ammvr_report: {},
+        midaymvr_report: {},
+        krss_report: {},
+        greenbook_report: {},
+        redbook_report: {}
     },
 
     mutations: {
@@ -34,7 +39,22 @@ export default new Vuex.Store({
         },
         updateStoreReport(state, reports) {
             state.store_reports = reports
-        }
+        },
+        updateAmmvr_report(state, data) {
+            state.ammvr_report = data
+        },
+        updateMidaymvr_report(state, data) {
+            state.midaymvr_report = data
+        },
+        updateKrss_report(state, data) {
+            state.krss_report = data
+        },
+        updateGreenbook_report(state, data) {
+            state.greenbook_report = data
+        },
+        updateRedbook_report(state, data) {
+            state.redbook_report = data
+        },
     },
 
     actions: {
@@ -141,7 +161,22 @@ export default new Vuex.Store({
             commit("updateStores", []);
             commit("updateStoreReport", []);
             commit("updateLog", status)
-        }
+        },
+        ammvr({ commit }, data) {
+            commit("updateAmmvr_report", data)
+        },
+        midaymvr({ commit }, data) {
+            commit("updateMidaymvr_report", data)
+        },
+        krss({ commit }, data) {
+            commit("updateKrss_report", data)
+        },
+        greenbook({ commit }, data) {
+            commit("updateGreenbook_report", data)
+        },
+        redbook({ commit }, data) {
+            commit("updateRedbook_report", data)
+        },
     },
 
     getters: {
@@ -150,7 +185,12 @@ export default new Vuex.Store({
         role: state => state.role,
         stores: state => state.stores,
         store_reports: state => state.store_reports,
-        logout: state => state.logOut
+        logout: state => state.logOut,
+        ammvr: state => state.ammvr_report,
+        midaymvr: state => state.midaymvr_report,
+        krss: state => state.krss_report,
+        greenbook: state => state.greenbook_report,
+        redbook: state => state.redbook_report,
     },
 
     plugins: [createPersistedState()]

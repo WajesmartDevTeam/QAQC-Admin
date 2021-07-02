@@ -122,7 +122,6 @@ export default {
       xmlHttp.send();
     },
     graphAPICallback (data) {
-      // console.log(data)
       let access = false;
       let role;
       data.value.forEach(i => {
@@ -134,7 +133,6 @@ export default {
         }
       })
       if (access === true) {
-
         let user = {
           email: this.myMSALObj.getAccount().userName
         }
@@ -147,7 +145,6 @@ export default {
               window.location.href = "admin/dashboard"
             })
             .catch((err) => {
-              console.log(err)
               this.$swal.fire("Error", err.message, "error");
               this.$store.getters.logout == true
               this.signOut();
@@ -158,10 +155,6 @@ export default {
           this.$swal.fire("Success", "Welcome " + this.myMSALObj.getAccount().name + "", "success");
           window.location.href = "admin/dashboard"
         }
-
-
-
-
       }
       else {
         this.$swal.fire({

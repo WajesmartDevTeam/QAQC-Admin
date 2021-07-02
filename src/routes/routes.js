@@ -13,12 +13,15 @@ import Food_safety from "@/pages/Foodsafety.vue";
 import Greenbook from "@/pages/Greenbook.vue";
 import Redbook from "@/pages/Redbook.vue";
 import AMMVRVIEW from "@/pages/view/Am_mvr_view.vue";
+import AmMvrPdf from "@/pages/view/Am_mvr_pdf.vue";
 import MIDDAYMVRVIEW from "@/pages/view/Midday_mvr_view.vue";
-// import AM_standard_view from "@/pages/view/AM_standard_view.vue";
-// import Midday_standard_view from "@/pages/view/Midday_standard_view.vue";
+import MiddayMvrPdf from "@/pages/view/Midday_mvr_pdf.vue";
 import Food_safety_View from "@/pages/view/Food_safety_view.vue";
+import Food_safety_pdf from "@/pages/view/Food_safety_pdf.vue";
 import Greenbook_View from "@/pages/view/Greenbook_view.vue";
+import Greenbook_pdf from "@/pages/view/Greenbook_pdf.vue";
 import Redbook_View from "@/pages/view/Redbook_view";
+import Redbook_pdf from "@/pages/view/Redbook_pdf.vue";
 
 const routes = [{
         path: "/",
@@ -56,6 +59,30 @@ const routes = [{
         component: Register
     },
     {
+        path: "/amvrpdf",
+        name: "AMMVR Report Pdf",
+        component: AmMvrPdf
+    },
+    {
+        path: "/midaymvrpdf",
+        name: "MidayMVR Report Pdf",
+        component: MiddayMvrPdf
+    },
+    {
+        path: "/krsspdf",
+        name: "Food Safety Report Pdf",
+        component: Food_safety_pdf
+    },
+    {
+        path: "/greenbookpdf",
+        name: "Greenbook Report Pdf",
+        component: Greenbook_pdf
+    }, {
+        path: "/redbookpdf",
+        name: "Redbook Report Pdf",
+        component: Redbook_pdf
+    },
+    {
         path: "/admin",
         component: DashboardLayout,
 
@@ -85,16 +112,7 @@ const routes = [{
                 name: "MIDDAY MVR Feedback Report",
                 component: MIDDAYMVR
             },
-            // {
-            //     path: "openingsoa",
-            //     name: "AM STANDARD OPERATIONS AUDIT",
-            //     component: AM_standard
-            // },
-            // {
-            //     path: "midopeningsoa",
-            //     name: "MIDDAY STANDARD OPERATIONS AUDIT",
-            //     component: Midday_standard
-            // },
+
             {
                 path: "krss",
                 name: "FOOD SAFETY REPORT",
@@ -115,21 +133,14 @@ const routes = [{
                 name: "AM MVR Feedback View",
                 component: AMMVRVIEW
             },
+
+
             {
                 path: "middaymvrfeedbackview/:id",
                 name: "MIDDAY MVR Feedback View",
                 component: MIDDAYMVRVIEW
             },
-            // {
-            //     path: "openingsoaview/:id",
-            //     name: "AM STANDARD OPERATIONS AUDIT View",
-            //     component: AM_standard_view
-            // },
-            // {
-            //     path: "midopeningsoaview/:id",
-            //     name: "MIDDAY STANDARD OPERATIONS AUDIT View",
-            //     component: Midday_standard_view
-            // },
+
             {
                 path: "foodreportview/:id",
                 name: "FOOD SAFETY REPORT View",

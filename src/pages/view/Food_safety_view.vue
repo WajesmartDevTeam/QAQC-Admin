@@ -3,7 +3,13 @@
     <div class="md-layout">
       <div class="md-layout-item mb-2">
         <button
-          class="btn btn-danger"
+          class=" btn  btn-primary"
+          v-on:click="downloadPdf()"
+        >
+          <span class="material-icons">file_download</span> Download Report
+        </button>
+        <button
+          class="pull-right btn btn-danger"
           @click="$router.push('/admin/krss')"
         >Go back <span class="fa fa-times"></span></button>
       </div>
@@ -3283,11 +3289,10 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "foodsafetyview") {
+            this.$store.dispatch('krss', response.data)
             for (let i = 0; i <= 400; i++) {
               response.data.forEach(item => {
                 if (i == item.questionno) {
-                  // console.log(item);
-                  // console.log(item.questiontext)
                   if (item.questionno == "2") {
                     let stores = this.$store.getters.stores
                     stores.forEach(j => {
@@ -3307,8 +3312,10 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
         });
+    },
+    downloadPdf () {
+      this.$router.push('/krsspdf')
     }
   }
 };

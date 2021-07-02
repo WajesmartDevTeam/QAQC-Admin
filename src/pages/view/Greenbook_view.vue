@@ -3,7 +3,13 @@
     <div class="md-layout">
       <div class="md-layout-item mb-2">
         <button
-          class="btn btn-danger"
+          class=" btn  btn-primary"
+          v-on:click="downloadPdf()"
+        >
+          <span class="material-icons">file_download</span> Download Report
+        </button>
+        <button
+          class="pull-right btn btn-danger"
           @click="$router.push('/admin/kdo')"
         >Go back <span class="fa fa-times"></span></button>
       </div>
@@ -1925,10 +1931,10 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "greenbookview") {
+            this.$store.dispatch('greenbook', response.data)
             for (let i = 0; i <= 300; i++) {
               response.data.forEach(item => {
                 if (i == item.questionno) {
-                  //   console.log(item.answers)
                   if (item.questionno == "4") {
                     let stores = this.$store.getters.stores
                     stores.forEach(j => {
@@ -1943,12 +1949,14 @@ export default {
               });
             }
 
-            // console.log(response.data);
           }
         })
         .catch(e => {
           console.log(e);
         });
+    },
+    downloadPdf () {
+      this.$router.push('/greenbookpdf')
     }
   }
 };
@@ -1958,5 +1966,9 @@ export default {
   border: 1px solid #dee2e6;
   height: 120px;
   padding: 5px;
+}
+.text-bold,
+.col-form-label {
+  font-weight: bold;
 }
 </style>

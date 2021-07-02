@@ -343,7 +343,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
           this.no_form = true
         });
     },
@@ -369,7 +368,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
         });
     },
     getStats () {
@@ -387,14 +385,12 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "amvrCompliance") {
-            console.log(response)
             this.no_of_compliant = response.data.amvr.compliant
             this.no_of_uncompliant = response.data.amvr.non_compliant
             this.record_date = response.data.amvr.message
           }
         })
         .catch(e => {
-          console.log(e);
           this.no_of_compliant = "-";
           this.no_of_uncompliant = "-";
         });
@@ -418,7 +414,6 @@ export default {
             }
 
             else {
-              // console.log(response.data)
               if (this.role == 'storeManager') {
                 this.compliance = []
                 response.data.forEach(i => {
@@ -437,7 +432,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
 
         });
     },

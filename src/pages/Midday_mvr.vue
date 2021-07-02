@@ -312,7 +312,6 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "middaymvr") {
-            console.log(response)
             if (response.data.Reports.length == 0) {
               this.no_form = true
             }
@@ -340,7 +339,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
           this.no_form = true
         });
     },
@@ -367,7 +365,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
         });
     },
 
@@ -387,14 +384,12 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "midmvrCompliance") {
-            // console.log(response)
             this.no_of_compliant = response.data.midmvr.compliant
             this.no_of_uncompliant = response.data.midmvr.non_compliant
             this.record_date = response.data.midmvr.message
           }
         })
         .catch(e => {
-          console.log(e);
           this.no_of_compliant = "-";
           this.no_of_uncompliant = "-";
         });
@@ -438,7 +433,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
 
         });
     },

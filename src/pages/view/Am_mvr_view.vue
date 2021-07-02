@@ -1,9 +1,17 @@
+
 <template>
   <div class="content">
     <div class="md-layout">
       <div class="md-layout-item mb-2">
+
         <button
-          class="btn btn-danger"
+          class=" btn  btn-primary"
+          v-on:click="downloadPdf()"
+        >
+          <span class="material-icons">file_download</span> Download Report
+        </button>
+        <button
+          class="pull-right btn btn-danger"
           @click="$router.push('/admin/amvrfeedback')"
         >Go back <span class="fa fa-times"></span></button>
       </div>
@@ -281,6 +289,7 @@
 
       </div>
     </div>
+
   </div>
 </template>
 
@@ -308,6 +317,7 @@ export default {
       this.$socket
         .makeGetRequest(recent)
         .then(response => {
+          this.$store.dispatch('ammvr', response.data)
           response.data.forEach(item => {
             for (let i = 0; i <= 100; i++) {
               if (i == item.questionno) {
@@ -329,8 +339,10 @@ export default {
           })
         })
         .catch(e => {
-          console.log(e);
         });
+    },
+    downloadPdf () {
+      this.$router.push('/amvrpdf')
     }
   }
 };
@@ -340,5 +352,9 @@ export default {
   border: 1px solid #dee2e6;
   height: 120px;
   padding: 5px;
+}
+.text-bold,
+.col-form-label {
+  font-weight: bold;
 }
 </style>

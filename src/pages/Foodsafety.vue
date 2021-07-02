@@ -244,7 +244,6 @@ export default {
         .makeGetRequest(recent)
         .then(response => {
           if (response.type == "foodsafetyCompliance") {
-            // console.log(response)
             this.no_of_compliant = response.data.compliant
             this.no_of_uncompliant = response.data.non_compliant
             this.record_date = response.data.message
@@ -252,7 +251,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
           this.no_of_compliant = "-";
           this.no_of_uncompliant = "-";
         });
@@ -296,7 +294,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
           this.no_form = true
         });
     },
@@ -338,7 +335,6 @@ export default {
           }
         })
         .catch(e => {
-          console.log(e);
 
         });
     },

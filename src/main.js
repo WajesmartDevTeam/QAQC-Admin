@@ -20,7 +20,7 @@ import MaterialDashboard from "./material-dashboard";
 
 import Chartist from "chartist";
 import DatatableFactory from 'vuejs-datatable/dist/vuejs-datatable.esm.js';
-
+import vueHtml2pdf from 'vue-html2pdf'
 // configure router
 const router = new VueRouter({
     mode: "history",
@@ -33,7 +33,7 @@ Vue.prototype.$Chartist = Chartist;
 Vue.prototype.$socket = Request;
 Vue.prototype.$swal = swal;
 
-
+Vue.component('vue-html2pdf', vueHtml2pdf);
 router.beforeEach((to, from, next) => {
     const isPublic = to.matched.some(record => record.meta.public);
     const onlyWhenLoggedOut = to.matched.some(

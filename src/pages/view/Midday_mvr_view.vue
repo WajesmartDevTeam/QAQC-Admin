@@ -1,9 +1,16 @@
+
 <template>
   <div class="content">
     <div class="md-layout">
       <div class="md-layout-item mb-2">
         <button
-          class="btn btn-danger"
+          class=" btn  btn-primary"
+          v-on:click="downloadPdf()"
+        >
+          <span class="material-icons">file_download</span> Download Report
+        </button>
+        <button
+          class=" pull-right btn btn-danger"
           @click="$router.push('/admin/midamvfeedback')"
         >Go back <span class="fa fa-times"></span></button>
       </div>
@@ -408,7 +415,7 @@ export default {
       this.$socket
         .makeGetRequest(recent)
         .then(response => {
-
+          this.$store.dispatch('midaymvr', response.data)
           if (response.type == "middaymvrview") {
             response.data.forEach(item => {
               for (let i = 0; i <= 120; i++) {
@@ -436,6 +443,9 @@ export default {
         .catch(e => {
           console.log(e);
         });
+    },
+    downloadPdf () {
+      this.$router.push('/midaymvrpdf')
     }
   }
 };
